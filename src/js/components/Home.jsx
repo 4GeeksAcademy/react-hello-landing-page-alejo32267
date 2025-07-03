@@ -7,7 +7,6 @@ import Footer from "./Footer";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
-
 //create your first component
 
 const data = [
@@ -50,7 +49,7 @@ const Home = () => {
         />
       </div>
     );
-	          info.push(card);
+    info.push(card);
   }
   return (
     <>
@@ -58,12 +57,13 @@ const Home = () => {
       <div className="container" style={{ padddingTop: "20px" }}>
         <Jumbotrom />
         <div
-          className="row"style={{ paddingBottom: "30px", paddingTop: "20px" }}
+          className="row"
+          style={{ paddingBottom: "30px", paddingTop: "20px" }}
         >
           {info}
         </div>
       </div>
-	  <Footer/>
+      <Footer />
     </>
   );
 };
