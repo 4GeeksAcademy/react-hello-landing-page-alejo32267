@@ -14,25 +14,25 @@ const data = [
   {
     title: "Lorem ",
     comentario: "Llorem ipsum",
-    img: lorem,
+    img: rigoImage,
     button: "Leer más",
   },
   {
     title: "Lorem ",
     comentario: "Llorem ipsum",
-    img: lorem,
+    img: rigoImage,
     button: "Leer más",
   },
   {
     title: "Lorem ",
     comentario: "Llorem ipsum",
-    img: lorem,
+    img: rigoImage,
     button: "Leer más",
   },
   {
     title: "Lorem ",
     comentario: "Llorem ipsum",
-    img: lorem,
+    img: rigoImage,
     button: "Leer más",
   },
 ];
