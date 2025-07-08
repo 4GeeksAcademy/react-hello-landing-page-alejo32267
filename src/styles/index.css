@@ -8,3 +8,35 @@
     transition: .2s linear;
 }
 
+img{
+  border-radius: 5px;
+}
+
+.row{
+padding-bottom: 30px;
+display: flex;
+  justify-content: space-around; /* o space-around / space-evenly */
+  padding: 20px;
+    margin: 0 10px; /* espacio lateral entre ellos */
+    margin-right: auto;
+
+}
+
+.card{
+  display: flex;
+  border: 1px solid black;
+}
+
+.jumbo{
+  display: flex;
+  width: fit-content;
+
+}
+
+h2{
+   font-family: "Ballet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}

@@ -1,11 +1,14 @@
-import React from "react";
+import { Button } from "bootstrap";
+
 
 function Jumbotrom(){
     return(
-     <div className = "bg-body-image p-5 text-light">
-        <h1>Entrenando</h1>
-        <p className = "estilos">Ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero non maiores sint, iure nostrum obcaecati eius? Hic aspernatur quaerat corporis, sapiente reiciendis voluptatem provident, libero nisi molestias vel, quo reprehenderit.</p>
-        <a className = "btn btn-lg btn-danger" href="src/js/components/navbar" role="Button"></a>
+<div className="jumbo">
+     <div className="h-100 p-4 m-3 text-bg-dark rounded-3"> 
+     <h2>Historia de la música</h2> 
+     <p>La música es el lenguaje universal que conecta emociones y personas sin necesidad de palabras. A través del tiempo, ha evolucionado sin perder su poder de unir y emocionar a todos.</p> 
+     <button className="btn btn-outline-light" type="button">Aprender más.</button> 
+     </div>
      </div>
     );
 }

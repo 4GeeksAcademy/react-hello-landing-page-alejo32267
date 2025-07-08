@@ -5,33 +5,39 @@ import Jumbotrom from "./Jumbotrom";
 import Footer from "./Footer";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import bass from "../../img/bass.jpg";
+import corno from "../../img/corno.jpg";
+import piano from "../../img/piano.jpeg";
+import violin from "../../img/violin.jpg";
+
+
+
 
 //create your first component
 
 const data = [
   {
-    title: "Lorem ",
-    comentario: "Llorem ipsum",
-    img: rigoImage,
+    title: "Bajo",
+    comentario: "El bajo (o bajo eléctrico) es un instrumento de cuerda, similar en forma a la guitarra eléctrica, pero con un sonido más grave y profundo. Es fundamental en la música moderna porque marca la base rítmica y armónica de una canción.",
+    img: bass,
     button: "Leer más",
   },
   {
-    title: "Lorem ",
-    comentario: "Llorem ipsum",
-    img: rigoImage,
+    title: "Corno ",
+    comentario: "El corno francés es un instrumento de viento metal con un sonido cálido y redondo. Tiene un tubo largo y enrollado, y se toca soplando a través de una boquilla mientras se usan los dedos para cambiar las notas. Es muy usado en orquestas.",
+    img: corno,
     button: "Leer más",
   },
   {
-    title: "Lorem ",
-    comentario: "Llorem ipsum",
-    img: rigoImage,
+    title: "Piano ",
+    comentario: "El piano es un instrumento de teclado que produce sonidos al golpear cuerdas internas con martillos pequeños. Es muy versátil y permite tocar melodías, armonías y ritmos a la vez. Es clave en muchos géneros musicales.",
+    img: piano,
     button: "Leer más",
   },
   {
-    title: "Lorem ",
-    comentario: "Llorem ipsum",
-    img: rigoImage,
+    title: "Violin ",
+    comentario: "El violín es un instrumento de cuerda frotada, el más pequeño y agudo de su familia (violín, viola, violonchelo y contrabajo). Se toca frotando un arco con cerdas sobre sus cuerdas, aunque también se puede tocar con los dedos (técnica llamada pizzicato).",
+    img: violin,
     button: "Leer más",
   },
 ];
@@ -54,11 +60,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="container" style={{ padddingTop: "20px" }}>
+      <div className="container">
         <Jumbotrom />
         <div
           className="row"
-          style={{ paddingBottom: "30px", paddingTop: "20px" }}
+        
         >
           {info}
         </div>
